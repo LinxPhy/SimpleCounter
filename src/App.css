@@ -1,0 +1,49 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.Title{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid grey;
+}
+
+.counter{
+    display: flex;
+    align-items: center;
+    gap: 0px 15px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.counter p {
+    font-size: 40px;
+}
+
+button{
+    border-radius: 5px;
+    width: 50px;
+    font-size: 45px;
+    border: none;
+    color: white;
+    background-color: rgb(83, 83, 83);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(165, 163, 163);
+}
